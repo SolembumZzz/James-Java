@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/static-method.iml" filepath="$PROJECT_DIR$/static-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/read-only-class.iml" filepath="$PROJECT_DIR$/read-only-class.iml" />
     </modules>
   </component>
 </project>
