@@ -1,6 +1,8 @@
 package model;
 
-public class Product {
+import java.util.Objects;
+
+public class Product implements Comparable<Product> {
     private long id;
     private String name;
     private int quantity;
@@ -50,5 +52,11 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+
+    @Override
+    public int compareTo(Product o) {
+        return Long.compare(getId(), o.getId());
     }
 }

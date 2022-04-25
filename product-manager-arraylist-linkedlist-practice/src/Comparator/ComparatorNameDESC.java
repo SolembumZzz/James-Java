@@ -3,9 +3,9 @@ package comparator;
 import model.Product;
 import java.util.Comparator;
 
-public class ComparatorPriceASC implements Comparator<Product> {
+public class ComparatorNameDESC implements Comparator<Product> {
     @Override
     public int compare(Product o1, Product o2) {
-        return Double.compare(o1.getPrice(), o2.getPrice());
+        return o2.getName().compareTo(o1.getName());
     }
 }
